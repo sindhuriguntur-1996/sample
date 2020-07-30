@@ -1,0 +1,33 @@
+.box-layout{
+    position: relative;
+    top: 40%;
+    left: 80%;
+   width: 250px;
+   height: 450px;
+   margin-top: -250px; /* Half the height */
+   margin-left: -250px; /* Half the width */
+  // margin: 0px;
+   background-color:white;
+   display: flex;
+   flex-direction: column;
+   justify-content: space-between;
+   flex-wrap: wrap;
+   //margin: 0px;
+   //border-radius: 10px; 
+   box-sizing: content-box;
+}
+
+.wrap{
+    position: relative;
+    
+   left: 35%;
+   right:50%;
+   margin-top: 50px;
+    width:250px;
+    height: 350px;
+    background:white;  
+   // padding-right: -10px;
+    padding-left: 120px;
+    padding-bottom: 1px;
+    padding-top: 150px;
+}

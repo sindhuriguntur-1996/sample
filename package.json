@@ -1,0 +1,38 @@
+{
+  "name": "sample",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "sindhuri",
+  "license": "MIT",
+  "scripts": {
+    "serve": "live-server public/",
+    "build": "webpack",
+    "dev-server": "webpack-dev-server"
+  },
+  "dependencies": {
+    "babel-cli": "",
+    "babel-core": "",
+    "babel-plugin-transform-class-properties": "",
+    "babel-preset-env": "",
+    "babel-preset-react": "",
+    "css-loader": "",
+    "firebase": "^7.17.1",
+    "live-server": "",
+    "node-sass": "",
+    "normalize.css": "",
+    "react": "",
+    "react-dom": "",
+    "react-modal": "",
+    "react-router-dom": "",
+    "sass-loader": "",
+    "style-loader": "",
+    "url-loader": "^4.1.0",
+    "validator": "",
+    "webpack": "",
+    "webpack-dev-server": ""
+  },
+  "devDependencies": {
+    "babel-loader": "^7.1.5",
+    "webpack-cli": "^3.3.12"
+  }
+}

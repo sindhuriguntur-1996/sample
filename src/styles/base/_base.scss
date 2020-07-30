@@ -1,0 +1,17 @@
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: $m-size;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background: url('./../../public/images/bg.jpg')
+  
+}
+
+
+button:disabled {
+  cursor: default;
+}
